@@ -1,4 +1,5 @@
 //Max Sum Sub Array (Brute Force)
+//Time Complexity O(N^3)
 #include <iostream>
 using namespace std;
 
