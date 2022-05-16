@@ -28,6 +28,6 @@ int main() {
 	int arr[] = {10, 20, 30, 40, 50, 60};
 	int n = sizeof(arr)/sizeof(int);
 	int maxSum = sumOfSubArray(arr, n);
-	cout << "MaxSum of SubArray:" << maxSum;
+	cout << "MaxSum of SubArray:" << maxSum.
     return 0;
 }
