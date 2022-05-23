@@ -5,6 +5,8 @@ The tower defends all the cells in the same row and the same column. No two towe
 The penalty of the position is the number of cells in the largest undefended rectangle. For example, the position shown on the picture has penalty 12.
 */
 
+//Expected Time Complexity :O(N log N)
+
 #include<bits/stdc++.h>
 using namespace std;
 #include<algorithm>
