@@ -3,6 +3,7 @@
   Your task is to make maximum number of pairs of these sticks such that the difference between the length of two sticks is at most D.
   A stick can't be part of more than one pair of sticks.
 */
+//Expected Time Complexity :O(N log N)
 
 #include<bits/stdc++.h>
 #include<algorithm>
