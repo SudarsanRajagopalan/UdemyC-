@@ -15,7 +15,7 @@ int pairSticks(vector<int> length, int D)
     sort(length.begin(), length.end());
     for(int i = 0; i<n-1; i++)
     {
-        if(abs(length[i] - length[i+1]) <= D)
+        if(abs(length[i] - length[i+1]) <= D) //also can be written without abs() "if(abs(length[i + 1] - length[i]) <= D)"
         {
             pair_count++;
             i++;
