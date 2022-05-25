@@ -20,16 +20,5 @@ bool arePermutation(string A, string B)
         if(A[i] != B[i])
             return false;
     return true;
-    /*
-    int a_sum = 0, b_sum = 0;
-    for(int i=0; i<A.length(); i++)
-    {   
-        a_sum += (int)A[i];
-        b_sum += (int)B[i];
-    }
-    if(a_sum == b_sum)
-        return true;
-    return false;
-    */
 }
 
