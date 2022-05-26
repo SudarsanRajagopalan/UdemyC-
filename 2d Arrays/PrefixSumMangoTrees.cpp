@@ -94,6 +94,8 @@ void prefixSum2dMango(char farm[][10], int n)
     }
     
     //Calculation of S1, S2, S3, S4 i.e., the sum of each quadrant.
+    //Ramu will get minimum trees but the minimum should be maximized i.e. if we cut at the right position then Ramu will get atleast a maximum of this many trees.
+    //If we cut at other positions his number of trees will be very low.  But compared to others he will be having either equal or smaller number of trees only.
     /*
      Top-Left: S1
      Top-Right: S2
