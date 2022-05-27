@@ -1,3 +1,7 @@
+/*
+Given a matrix of size M x N, there are large number of queries to find submatrix sums. Inputs to queries are left top and right bottom indexes of submatrix whose sum is to find out.
+*/    
+
 #include<bits/stdc++.h>
 using namespace std;
 
