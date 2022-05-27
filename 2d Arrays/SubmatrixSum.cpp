@@ -1,5 +1,6 @@
 /*
 Given a matrix of size M x N, there are large number of queries to find submatrix sums. Inputs to queries are left top and right bottom indexes of submatrix whose sum is to find out.
+How to preprocess the matrix so that submatrix sum queries can be performed in O(1) time.
 */    
 
 #include<bits/stdc++.h>
