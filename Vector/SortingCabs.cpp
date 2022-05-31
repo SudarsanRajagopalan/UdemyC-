@@ -9,8 +9,7 @@ using namespace std;
 float sumOfPairs(pair<int, int> s)
 {
     return sqrt((s.first*s.first) + (s.second*s.second));
-    //Why we are squaring and taking square root is because the coordinates
-    //can be negative as well
+    //Distance Formula: sqrt((x2-x1)^2 + (y2-y1)^2)
 }
 bool compare(pair<int, int> a1, pair<int, int> a2)
 {
