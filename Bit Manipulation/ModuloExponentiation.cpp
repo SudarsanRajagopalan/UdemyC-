@@ -1,6 +1,6 @@
 //Expected Time Complexity : O(Log N)
 //Given three numbers x, y and mod, compute x raised to power y modulo mod i.e.  (x^y)%mod
-//Doing Fast Exponenation - O(Log N) ie.  O(Log y)
+//Doing Fast Exponenation - O(Log N) ie.  O(Log y) in this case
 
 #include <iostream>
 using namespace std;
